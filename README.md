@@ -42,4 +42,4 @@ Lancez `index.html` et voilà !
   mkdir ClickFast
 
   ls # on voit qu'on a un dossier ClickFast qui a été créé
-```
+```# ClickFast
