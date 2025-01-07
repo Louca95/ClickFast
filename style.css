@@ -1,24 +1,50 @@
 body {
     font-family: sans-serif;
+    ;
   }
   
   h1 {
-    font-family: fantasy;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  h2{
+    margin-left: 770px
   }
   
   #container {
     margin: 5rem;
   }
   
-  .flex {
+  #button-clicker {
+    background-color: rgb(255, 0, 0);
+    padding: 1rem;
+    border-radius: 1rem;
+    cursor: pointer;
+    font-size: 11.5rem;
+    font-weight: bold;
+    transition: all 0.3s;
+  }
+  
+  .flex-center {
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
   }
   
-  .catchphrase {
-    font-size: 1.5rem;
+  .text {
+    text-align: center;
+  }
+  
+  .number {
     margin: 3rem 0;
     text-align: center;
+    background-color: rgb(255, 153, 0);
+    width: 8rem;
+    height: 8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25%;
+    font-size: 3rem;
+    font-weight: bold;
   }
